@@ -1,4 +1,4 @@
-# One player fpga Pong game
+# One player FPGA Pong game
 
 In this project, I've coded in Verilog a one-player FPGA pong game on a max 10 10m08 evaluation kit using Quartus prime as ide.
 
