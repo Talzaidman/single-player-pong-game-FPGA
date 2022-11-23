@@ -1,10 +1,10 @@
-# One player FPGA Pong game
+# Single player FPGA Pong game
 
 photo
 
 ### Contents
 - [Introduction](#Introduction)
-- [Setup](#Setup)
+- [The setup](#The-Setup)
 - [The way it works](#The-way-it-works)
   - [Memory mesh approche](#Memory-mesh-approche)
   - [Coordinates calculation approche](#Coordinates-calculation-approche)
@@ -21,7 +21,7 @@ If the player fails, the game restarts after 3 seconds.
 There are two versions of the code, representing two approaches - the memory map approach, and the coordinate calculation approche. 
 Both do the same, but the coordinate approach uses much fewer rescources and is an improved version of the other.
 
-### Setup
+### The setup
 the disply is connected with a VGA cable to a jumperwire addapter. using 2 sync control inputs and 3 RGB inputs.
 all connected to digital IO pins on the board.
 two buttons are coonected to the IO pins as well.
