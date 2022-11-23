@@ -2,14 +2,10 @@
 
 photo
 
-### Contents
+## Contents
 - [Introduction](#Introduction)
 - [The setup](#The-Setup)
-- [The way it works](#The-way-it-works)
-  - [Memory mesh approche](#Memory-mesh-approche)
-  - [Coordinates calculation approche](#Coordinates-calculation-approche)
 - [Installation](#installation)
-- [Reference documentation](#reference-documentation)
 
 ## Introduction
 In this project, I've coded in Verilog a one-player FPGA pong game on a **max 10 10m08 evaluation kit** using **Quartus prime** as IDE.
@@ -21,20 +17,17 @@ If the player fails, the game restarts after 3 seconds.
 There are two versions of the code, representing two approaches - the memory map approach, and the coordinate calculation approche. 
 Both do the same, but the coordinate approach uses much fewer rescources and is an improved version of the other.
 
-### The setup
+[Inside the code file, you can find a thorough explanation of every code block and its purpose.]
+
+## The setup
 the disply is connected with a VGA cable to a jumperwire addapter. using 2 sync control inputs and 3 RGB inputs.
 all connected to digital IO pins on the board.
 two buttons are coonected to the IO pins as well.
 
 photo
 
-### The way it works
-#### Memory mesh approche
-A more visual solution but much more memory demanding. A memory map of size 640x480 is set.
-#### Coordinates calculation approche
-Here, instead of a map the data is stored as coordinates inside veriables. 
 
-### Installation
+## Installation
 With the IDE you're using, load the Verilog file and make sure you set the inputs and outputs address with your IDE's Pin-planner. Then, flush it to your FPGA board.
 The board I used has a 50 Mhz clock frequency. Therefor, the H-sync and V-sync counters are set accordingly. Pay attention that you configure your counters according to your board's clock speed. Else, the display won't be able to read the output data the board is sending. 
 
