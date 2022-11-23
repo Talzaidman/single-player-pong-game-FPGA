@@ -37,4 +37,5 @@ With the IDE you're using, load the Verilog file and make sure you set the input
 The board I used has a 50 Mhz clock speed. Therefor, the H-sync and V-sync counters are set accordingly. Pay attention that you configure your counters according to your board's clock speed. Else, the display won't be able to read the output data the board is sending. 
 
 The timing has to be set as follows:
-![Timing table](https://raw.githubusercontent.com/Talzaidman/Pong/blob/main/Photos/Timingtable.png)
+
+![Timing table](https://github.com/Talzaidman/Pong/blob/078d2ed1bbc40f8d17dcb29f80c88ef32998d2a8/Photos/Timingtable.png)
