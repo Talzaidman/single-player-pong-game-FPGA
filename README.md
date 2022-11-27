@@ -1,6 +1,6 @@
 # Single player FPGA Pong game
 
-photo
+<img src="https://github.com/Talzaidman/single-player-pong-game-FPGA/blob/f63be390efe6681c2a6b07757d3f9da73856b421/Photos/all.jpg" width=50% height=50%>
 
 ## Contents
 - [Introduction](#Introduction)
@@ -24,7 +24,7 @@ the disply is connected with a VGA cable to a jumperwire addapter. using 2 sync 
 all connected to digital IO pins on the board.
 two buttons are coonected to the IO pins as well.
 
-photo
+<img src="https://github.com/Talzaidman/single-player-pong-game-FPGA/blob/f63be390efe6681c2a6b07757d3f9da73856b421/Photos/closeup.jpg" width=50% height=50%>
 
 
 ## Installation
