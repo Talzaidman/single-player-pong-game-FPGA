@@ -33,7 +33,7 @@ The board I used has a 50 Mhz clock frequency. Therefor, the H-sync and V-sync c
 
 Also, You can change the ball and paddle shapes, as well as the screen size:
 
-```python
+```verilog
 parameter width = 639; 		 // screen resolution
 parameter height = 479;
 parameter ballradius = 10;	 // ball size
