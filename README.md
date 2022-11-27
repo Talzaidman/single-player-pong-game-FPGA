@@ -17,7 +17,7 @@ If the player fails, the game restarts after 3 seconds.
 There are two versions of the code, representing two approaches - the memory map approach, and the coordinate calculation approche. 
 Both do the same, but the coordinate approach uses much fewer rescources and is an improved version of the other.
 
-[Inside the code file, you can find a thorough explanation of every code block and its purpose.]
+Inside the code file, you can find a thorough explanation of every code block and its purpose.
 
 ## The setup
 the disply is connected with a VGA cable to a jumper-wire addapter. using 2 sync control inputs and 3 RGB inputs.
